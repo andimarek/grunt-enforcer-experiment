@@ -1,0 +1,42 @@
+{
+  "name": "grunt-enforcer",
+  "description": "Clean files and folders.",
+  "version": "1.0.0",
+  "homepage": "",
+  "author": {
+    "name": "",
+    "url": ""
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": ""
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "esprima": "~1.0.3",
+    "underscore": "~1.5.1",
+    "htmlparser2": "~3.2.3",
+    "underscore.string": "~2.3.3"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
